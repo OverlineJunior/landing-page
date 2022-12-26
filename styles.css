@@ -44,3 +44,57 @@ body {
 	color: #E5E7EB;
 	text-decoration: none;
 }
+
+.hero-container {
+	display: flex;
+	justify-content: center;
+	background-color: #1F2937;
+}
+
+.hero {
+	display: flex;
+	flex: 1;
+	gap: 64px;
+	margin: 80px 10%;
+	padding: 10px;
+}
+
+.hero .left,
+.hero .right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+}
+
+.hero .right {
+	background-color: rgb(120, 125, 130);
+}
+
+.hero .title {
+	margin: 0;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #F9FAF8;
+}
+
+.hero .subtext {
+	margin: 10px 0;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.sign-up {
+	width: 100px;
+	padding: 10px;
+	border: 0px;
+	border-radius: 8px;
+	font-size: 14px;
+	background-color: #3882F6;
+	color: #E5E7EB;
+}
+
+.hero .image-placeholder {
+	text-align: center;
+	color: #E5E7EB;
+}
