@@ -91,6 +91,7 @@ body {
 	border: 0px;
 	border-radius: 8px;
 	font-size: 14px;
+	font-weight: bold;
 	background-color: #3882F6;
 	color: #E5E7EB;
 }
@@ -167,4 +168,42 @@ body {
 	text-align: right;
 	margin: 0;
 	color: #1F2937;
+}
+
+.ad-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ad-container .ad {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	margin: 64px 10%;
+	padding: 32px 32px;
+	border-radius: 8px;
+	background-color: #3882F6;
+}
+
+.ad-container .text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ad-container .title,
+.ad-container .subtext {
+	margin: 0;
+	color: #E5E7EB;
+}
+
+.ad-container .subtext {
+	font-weight: 100; /* FIXME: Should look lighter */
+}
+
+.ad-container .sign-up {
+	border: 2px solid #E5E7EB;
+	border-color: #E5E7EB;
 }
