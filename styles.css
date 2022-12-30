@@ -145,3 +145,26 @@ body {
 	word-wrap: break-word;
 	margin-bottom: 0;
 }
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 64px 10%;
+	background-color: #E5E7EB;
+}
+
+.quote-container .quote {
+	font-size: 36px;
+	font-weight: 100; /* FIXME: Should look lighter */
+	margin: 0;
+	color: #1F2937;
+}
+
+.quote-container .author {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+	margin: 0;
+	color: #1F2937;
+}
