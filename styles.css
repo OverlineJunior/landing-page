@@ -98,3 +98,17 @@ body {
 	text-align: center;
 	color: #E5E7EB;
 }
+
+.gallery-container {
+	display: flex;
+	justify-content: center;
+	background-color: yellow;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
